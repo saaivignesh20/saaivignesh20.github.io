@@ -2,6 +2,7 @@
     --bg-color: #040d12;
     --text-color: #efefef;
     --text-color-dark: #000;
+    --text-color-secondary: #bfbfbf;
     --highlight: #4dd0e1;
 }
 
@@ -42,6 +43,40 @@ body {
 
 .font-light {
     font-weight: 300;
+}
+
+/* ====== Margin Workarounds ====== */
+.mt-0 {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+/* ====== Moving Cursor ====== */
+.circle-out {
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    background-color: rgba(77, 208, 225, 0.2);
+    border: 1px solid #4dd0e1;
+    position: absolute;
+    transition: top 0.1s, left 0.1s;
+    pointer-events: none;
+}
+
+.circle-in {
+    border-radius: 50%;
+    background: #4dd0e1;
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    pointer-events: none;
 }
 
 /* ====== Container CSS ====== */
@@ -97,12 +132,16 @@ header nav ul li a:hover {
 
 /* ====== Main CSS ====== */
 
-/* ====== Hero CSS ====== */
+/* ====== Section CSS ====== */
+main section {
+    margin: 50px 100px;
+}
+
+/* Hero */
 main section.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 100px;
 }
 
 main section.hero div p.heading {
@@ -141,4 +180,87 @@ main section.hero div.hero-actions button.secondary {
     border: 2px solid var(--highlight);
     background-color: transparent;
     color: var(--highlight);
+}
+
+/* Introduction */
+main section.introduction {
+    text-align: center;
+}
+
+main section.introduction .greeting,
+main section.introduction .title {
+    font-size: 20px;
+}
+
+main section.introduction .name {
+    font-family: "Cookie", sans-serif;
+    font-size: 48px;
+}
+
+main section.introduction .description {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-color-secondary);
+}
+
+/* About Me */
+main section.about-me .heading {
+    font-family: "Cookie", sans-serif;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    margin-bottom: 0;
+}
+
+main section.about-me .heading span {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--bg-color);
+    z-index: 9;
+}
+
+main section.about-me .heading:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background: var(--highlight);
+}
+
+main section.about-me .content {
+    display: flex;
+    gap: 80px;
+}
+
+main section.about-me .content .sub-content {
+    line-height: 24px;
+    font-size: 16px;
+    color: var(--text-color-secondary);
+}
+
+main section.about-me .content .image {
+    position: relative;
+}
+
+main section.about-me .content .image img.foreground {
+    position: relative;
+    width: 224px;
+    height: 224px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+main section.about-me .content .image img.background {
+    width: 224px;
+    height: 224px;
+    position: absolute;
+    border-radius: 20px;
+    top: 16px;
+    left: 16px;
+    z-index: 0;
 }
