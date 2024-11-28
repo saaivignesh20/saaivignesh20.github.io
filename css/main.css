@@ -1,0 +1,144 @@
+:root {
+    --bg-color: #040d12;
+    --text-color: #efefef;
+    --text-color-dark: #000;
+    --highlight: #4dd0e1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/* ====== Colors ====== */
+.highlight {
+    color: var(--highlight);
+}
+
+/* ====== Secondary Fonts ====== */
+.font-cookie {
+    font-family: "Cookie", sans-serif;
+}
+
+/* ====== Font Weights ====== */
+.font-bold {
+    font-weight: 700;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+/* ====== Container CSS ====== */
+div.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ====== Header CSS ====== */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 24px;
+}
+
+header .name {
+    font-family: "Cookie", sans-serif;
+    font-size: 32px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    position: relative;
+}
+
+header nav ul li::after {
+    content: "•";
+    margin: 0 10px;
+    color: var(--text-color);
+}
+
+header nav ul li:last-child::after {
+    content: "";
+    display: none;
+}
+
+header nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ====== Main CSS ====== */
+
+/* ====== Hero CSS ====== */
+main section.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+main section.hero div p.heading {
+    margin: 0;
+    font-size: 48px;
+}
+
+main section.hero div img {
+    width: 100%;
+    height: 250px;
+}
+
+main section.hero div.hero-actions {
+    display: flex;
+    gap: 10px;
+}
+
+main section.hero div.hero-actions button {
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    height: 48px;
+    padding: 0 23px;
+    font-family: "Lexend";
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+main section.hero div.hero-actions button.primary {
+    background-color: var(--highlight);
+    color: var(--text-color-dark);
+}
+
+main section.hero div.hero-actions button.secondary {
+    border: 2px solid var(--highlight);
+    background-color: transparent;
+    color: var(--highlight);
+}
