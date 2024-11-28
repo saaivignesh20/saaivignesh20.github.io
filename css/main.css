@@ -58,25 +58,35 @@ body {
     margin: 0;
 }
 
-/* ====== Moving Cursor ====== */
-.circle-out {
+/* ====== Moving Custom Cursor ====== */
+
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
     border-radius: 50%;
-    height: 24px;
-    width: 24px;
-    background-color: rgba(77, 208, 225, 0.2);
-    border: 1px solid #4dd0e1;
-    position: absolute;
-    transition: top 0.1s, left 0.1s;
     pointer-events: none;
 }
 
-.circle-in {
+.circle-out {
+    margin-top: -15px;
+    margin-left: -15px;
     border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: #4dd0e122;
+    border: 1px solid #4dd0e1;
+    transition: transform 0.08s;
+    z-index: 100000;
+}
+
+.circle-in {
+    margin-top: -3px;
+    margin-left: -3px;
     background: #4dd0e1;
     height: 6px;
     width: 6px;
-    position: absolute;
-    pointer-events: none;
+    z-index: 100001;
 }
 
 /* ====== Container CSS ====== */
