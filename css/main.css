@@ -281,16 +281,17 @@ main section.introduction .description {
 }
 
 /* About Me */
-main section.about-me .heading {
+main section .heading {
     font-family: "Cookie", sans-serif;
     font-size: 48px;
     text-align: center;
     font-weight: 100;
     position: relative;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
-main section.about-me .heading span {
+main section .heading span {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -298,7 +299,7 @@ main section.about-me .heading span {
     z-index: 9;
 }
 
-main section.about-me .heading:after {
+main section .heading:after {
     content: "";
     position: absolute;
     top: 50%;
