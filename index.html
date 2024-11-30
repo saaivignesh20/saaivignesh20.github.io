@@ -15,18 +15,19 @@
     <body>
         <div class="custom-cursor circle-out"></div>
         <div class="custom-cursor circle-in"></div>
+        <header>
+            <div class="name">Saai Vignesh P</div>
+            <nav>
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
         <div class="container">
-            <header>
-                <div class="name">Saai Vignesh P</div>
-                <nav>
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Work</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#contact">Resume</a></li>
-                    </ul>
-                </nav>
-            </header>
             <main>
                 <section class="hero">
                     <div>
@@ -48,7 +49,7 @@
                         <img src="img/hero-img.png" alt="Hero Image" />
                     </div>
                 </section>
-                <section class="introduction">
+                <section class="introduction" id="about-me">
                     <div class="greeting">Hello I'm</div>
                     <div class="name">Saai Vignesh Premanand</div>
                     <div class="title">Full Stack Web Developer</div>
@@ -63,39 +64,29 @@
                     <div class="content">
                         <div class="sub-content">
                             <p>
-                                Hello! My name is Saai Vignesh Premanand and I specialize
-                                in developing high-quality web applications using
-                                cutting-edge technologies. My programming journey started
-                                back in 2010 when I was a middle-school student trying out
-                                Visual Basic programming.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Morbi vitae finibus quam, at pretium lectus. Quisque
+                                pretium pellentesque nunc, eget consectetur ligula
+                                ultricies vel. Nunc vel posuere nunc. Phasellus a aliquam
+                                tellus, at vehicula massa. Vivamus feugiat arcu ex.
+                                Maecenas eget finibus dui.
                             </p>
 
                             <p>
-                                Fast forward to today, I've had the privilege of working
-                                at a fast-paced start-up company where I've kickstarted my
-                                career in full-stack development using the MEAN
-                                development stack, which is my primary development stack
-                                of focus.
+                                Duis pellentesque arcu eget tristique consectetur. Vivamus
+                                cursus laoreet metus quis aliquam. Morbi enim diam,
+                                commodo et augue in, condimentum dignissim massa. Fusce
+                                orci ante, cursus ut tempor sed, ornare eu diam. Sed non
+                                libero purus. Maecenas et vestibulum arcu.
                             </p>
 
                             <p>
-                                Apart from web development, I have a very keen interest in
-                                Artificial Intelligence of today and it's potential
-                                applications in improving the environment, health and the
-                                quality of everyday life. Contributing to this, I've also
-                                done a few R&D projects in my free time like Plant disease
-                                identification.
+                                Etiam dignissim mi id felis rhoncus, quis porttitor urna
+                                vehicula. Etiam consectetur sodales faucibus. Nam placerat
+                                eu eros a facilisis. Cras nulla magna, accumsan sed
+                                maximus in, ornare auctor tortor. Fusce feugiat tellus at
+                                arcu blandit, ullamcorper vulputate dui lacinia.
                             </p>
-
-                            <div>
-                                <div>My hobbies include:</div>
-                                <ul class="mt-0">
-                                    <li>listening to music 🎧</li>
-                                    <li>travel ✈️</li>
-                                    <li>photography 📷</li>
-                                    <li>amateur astronomy 🚀</li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="image">
                             <img class="foreground" src="img/profile.jpg" />
@@ -103,16 +94,87 @@
                         </div>
                     </div>
                 </section>
-                <section class="skills">
-                    <h1 class="heading"><span> Skills </span></h1>
+                <section class="my-expertise" id="expertise">
+                    <h1 class="heading"><span> My Expertise </span></h1>
+                    <div class="expertise-grid">
+                        <div class="expertise-grid-cell">
+                            <h3>Web Frontend</h3>
+                            <div class="icons">
+                                <img src="img/html.png" alt="HTML5" title="HTML5" />
+                                <img src="img/css.png" alt="CSS3" title="CSS3" />
+                                <img
+                                    src="img/javascript.png"
+                                    alt="JavaScript"
+                                    title="JavaScript"
+                                />
+                                <img
+                                    src="img/angular.png"
+                                    alt="Angular"
+                                    title="Angular"
+                                />
+                                <img src="img/react.png" alt="React" title="React" />
+                            </div>
+                        </div>
+                        <div class="expertise-grid-cell">
+                            <h3>Web Backend</h3>
+                            <div class="icons">
+                                <img src="img/nodejs.png" alt="Node.js" title="Node.js" />
+                                <img
+                                    src="img/express.png"
+                                    alt="ExpressJS"
+                                    title="ExpressJS"
+                                />
+                                <img src="img/nestjs.png" alt="NestJS" title="NestJS" />
+                                <img
+                                    src="img/mongodb.png"
+                                    alt="MongoDB"
+                                    title="MongoDB"
+                                />
+                                <img
+                                    src="img/postgresql.png"
+                                    alt="PostgreSQL"
+                                    title="PostgreSQL"
+                                />
+                            </div>
+                        </div>
+                        <div class="expertise-grid-cell">
+                            <h3>Cloud & Tools</h3>
+                            <div class="icons">
+                                <img src="img/aws.png" alt="AWS" title="AWS" />
+                                <img
+                                    src="img/firebase.png"
+                                    alt="Firebase"
+                                    title="Firebase"
+                                />
+                                <img src="img/auth0.png" alt="Auth0" title="Auth0" />
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section class="experience"></section>
                 <section class="projects"></section>
-                <section class="contact"></section>
+                <section class="contact-me" id="contact-me">
+                    <h1 class="heading"><span> Contact Me </span></h1>
+                    <p class="contact-hero">
+                        Let's
+                        <span class="highlight">build</span> the next <br />
+                        <span class="highlight">big thing</span> together!
+                    </p>
+                    <form class="contact-form" action="">
+                        <div class="form-control">
+                            <input type="text" placeholder="Enter your name" />
+                        </div>
+                        <div class="form-control">
+                            <input type="text" placeholder="Enter your e-mail address" />
+                        </div>
+                        <button class="primary transition-button">Submit</button>
+                    </form>
+                </section>
             </main>
-            <footer></footer>
         </div>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+        <footer>
+            <div>Copyright © 2023 Saai Vignesh Premanand. All rights reserved.</div>
+        </footer>
         <script src="js/main.js"></script>
     </body>
 </html>
