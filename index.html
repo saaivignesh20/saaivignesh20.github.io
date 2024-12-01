@@ -162,10 +162,18 @@
                     </p>
                     <form class="contact-form" action="">
                         <div class="form-control">
-                            <input type="text" placeholder="Enter your name" />
+                            <input
+                                type="text"
+                                placeholder="Enter your name"
+                                minlength="1"
+                            />
                         </div>
                         <div class="form-control">
-                            <input type="text" placeholder="Enter your e-mail address" />
+                            <input
+                                type="email"
+                                placeholder="Enter your e-mail address"
+                                minlength="5"
+                            />
                         </div>
                         <button class="primary transition-button">Submit</button>
                     </form>
@@ -173,7 +181,10 @@
             </main>
         </div>
         <footer>
-            <div>Copyright © 2023 Saai Vignesh Premanand. All rights reserved.</div>
+            <div>
+                <p>Copyright © 2023 Saai Vignesh P.</p>
+                <p>All rights reserved.</p>
+            </div>
         </footer>
         <script src="js/main.js"></script>
     </body>
