@@ -3,7 +3,12 @@
     --text-color: #efefef;
     --text-color-dark: #000;
     --text-color-secondary: #bfbfbf;
+    --text-color-tertiary: #5b5b5b;
     --highlight: #4dd0e1;
+}
+
+::selection {
+    background-color: #4dd0e122;
 }
 
 * {
@@ -173,8 +178,8 @@ header {
     top: 0;
     left: 0;
     z-index: 999;
-    background-color: #040d12aa;
-    backdrop-filter: saturate(100%) blur(10px);
+    background-color: #040d12b0;
+    backdrop-filter: saturate(100%) blur(8px);
 }
 
 header .name {
@@ -333,12 +338,14 @@ main section.about-me .content .image img.background {
 main section.my-expertise .expertise-grid {
     margin-top: 24px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
 }
 
 main section.my-expertise .expertise-grid .expertise-grid-cell {
-    border: 1px dotted var(--text-color-secondary);
+    border: 1px dotted var(--text-color-tertiary);
+    border-radius: 12px;
     padding: 10px;
 }
 
@@ -368,6 +375,40 @@ main section.my-expertise .expertise-grid .expertise-grid-cell .icons img {
 
 main section.my-expertise .expertise-grid .expertise-grid-cell .icons img:hover {
     filter: grayscale();
+}
+
+/* Projects */
+main section.projects .projects-grid {
+    margin-top: 24px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+main section.projects .projects-grid .project-grid-cell {
+    border: 1px solid var(--text-color-tertiary);
+    border-radius: 12px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+main section.projects .projects-grid .project-grid-cell:hover {
+    box-shadow: rgba(255, 255, 255, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -5px, 0px);
+    cursor: pointer;
+}
+
+main section.projects .projects-grid .project-grid-cell div.project-image img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+main section.projects .projects-grid .project-grid-cell div.project-title {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
 }
 
 /* Contact Me */
