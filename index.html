@@ -7,11 +7,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Cookie&family=Lexend:wght@100..900&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Cookie&family=Urbanist:wght@100..900&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="css/main.css" />
     </head>
+
     <body>
         <div class="custom-cursor circle-out"></div>
         <div class="custom-cursor circle-in"></div>
@@ -31,7 +32,7 @@
             <main>
                 <section class="hero">
                     <div>
-                        <p class="hero-heading">
+                        <p class="hero-heading font-medium">
                             Transforming
                             <span class="highlight">Visions</span> into <br />
                             Intuitive
@@ -54,9 +55,12 @@
                     <div class="name">Saai Vignesh Premanand</div>
                     <div class="title">Full Stack Web Developer</div>
                     <div class="description">
-                        A creative and experienced web application developer with a
-                        passion for crafting advanced, rich and user-centric digital
-                        experiences. Currently working as a freelance software developer.
+                        <p>
+                            A creative and experienced web application developer with a
+                            passion for crafting advanced, rich and user-centric digital
+                            experiences.
+                        </p>
+                        <p>Currently working as a freelance software developer.</p>
                     </div>
                 </section>
                 <section class="about-me">
@@ -152,62 +156,107 @@
                     </div>
                 </section>
                 <!-- <section class="experience"></section> -->
-                <section class="projects">
+                <section class="projects" id="projects">
                     <h1 class="heading"><span> Projects </span></h1>
                     <div class="projects-grid">
                         <div class="project-grid-cell">
+                            <div class="project-category-tag">Architecture</div>
                             <div class="project-image">
                                 <img src="img/thumb-rsquare.jpg" />
                             </div>
                             <div class="project-title">
-                                PolyTrack: Scalable IoT Tracker Platform
+                                RSquare: Scalable IoT Tracker Platform
+                            </div>
+                            <div class="project-description">
+                                RSquare is a versatile cloud-based IoT solution tailored
+                                to meet the demands of modern device connectivity and
+                                alerts management.
                             </div>
                         </div>
                         <div class="project-grid-cell">
+                            <div class="project-category-tag">Full-Stack Development</div>
                             <div class="project-image">
                                 <img src="img/thumb-ramix.jpg" />
                             </div>
                             <div class="project-title">
-                                ProESL: Cloud ESL Tags Platform
+                                Ramix: Cloud ESL Tags Platform
+                            </div>
+                            <div class="project-description">
+                                ProESL is an advanced solution for managing Electronic
+                                Shelf Tags (ESL), offering a seamless and intuitive
+                                interface for efficient retail operations.
                             </div>
                         </div>
                         <div class="project-grid-cell">
+                            <div class="project-category-tag">Full-Stack Development</div>
                             <div class="project-image">
                                 <img src="img/thumb-consource.jpg" />
                             </div>
                             <div class="project-title">
                                 ProSourcing: Procurement Sourcing Suite
                             </div>
+                            <div class="project-description">
+                                The end-to-end digital procurement and sourcing software
+                                which serves as the apex to manage demands, project flows,
+                                RFPs, contracts and derive insights on performance.
+                            </div>
                         </div>
                         <div class="project-grid-cell">
+                            <div class="project-category-tag">Full-Stack Development</div>
                             <div class="project-image">
                                 <img src="img/thumb-improveo.jpg" />
                             </div>
                             <div class="project-title">
                                 GoConsulting: Consulting Social Network
                             </div>
+                            <div class="project-description">
+                                Discover the new way to find consulting firms with the
+                                new-age professional network, blending digital and human
+                                interactions. Learn from the best practitioners in the
+                                industry.
+                            </div>
                         </div>
                         <div class="project-grid-cell">
+                            <div class="project-category-tag">
+                                Website Design & Hosting
+                            </div>
                             <div class="project-image">
                                 <img src="img/thumb-landingpage.jpg" />
                             </div>
                             <div class="project-title">
-                                Landing Page: Microwave Oven Services
+                                SV Microwave Oven Care: Business Site
+                            </div>
+                            <div class="project-description">
+                                Developed a responsive single page website with boosted
+                                accessibility and minimalistic business-oriented design
+                                for a microwave oven repair services vendor.
                             </div>
                         </div>
                         <div class="project-grid-cell">
+                            <div class="project-category-tag">Full-Stack Development</div>
                             <div class="project-image">
                                 <img src="img/thumb-cuspro.jpg" />
                             </div>
                             <div class="project-title">
-                                CusPro: CRM for Microwave Oven Services
+                                SVMC CusPro: Custom CRM Software
+                            </div>
+                            <div class="project-description">
+                                Developed a custom CRM software with responsive and PWA
+                                capabilities tailored to the digital needs of the
+                                microwave oven repair services client.
                             </div>
                         </div>
                     </div>
+                    <!-- TODO: Later -->
+                    <!-- <div class="load-more-btn-container">
+                        <button class="secondary transition-button">
+                            View All Projects
+                        </button>
+                    </div> -->
                 </section>
-                <section class="contact-me" id="contact-me">
+                <section class="contact-me" id="contact">
                     <h1 class="heading"><span> Contact Me </span></h1>
-                    <p class="contact-hero">
+                    <p class="contact-hero font-medium">
                         Let's
                         <span class="highlight">build</span> the next <br />
                         <span class="highlight">big thing</span> together!
@@ -233,10 +282,8 @@
             </main>
         </div>
         <footer>
-            <div>
-                <p>Copyright © 2023 Saai Vignesh P.</p>
-                <p>All rights reserved.</p>
-            </div>
+            <div>Copyright © 2023 Saai Vignesh Premanand.</div>
+            <div>All rights reserved.</div>
         </footer>
         <script src="js/main.js"></script>
     </body>

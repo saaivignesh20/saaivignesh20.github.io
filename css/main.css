@@ -20,7 +20,7 @@ body {
     margin: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: "Lexend", sans-serif;
+    font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -103,7 +103,7 @@ body {
     padding: 0 23px;
     overflow: hidden;
     cursor: pointer;
-    font-family: "Lexend", sans-serif;
+    font-family: "Urbanist", sans-serif;
     font-size: 16px;
     font-weight: 700;
     border-radius: 32px;
@@ -223,7 +223,9 @@ header nav ul li a:hover {
 
 /* ====== Section CSS ====== */
 main section {
-    padding: 50px 100px;
+    /* padding: 50px 100px; */
+    padding: 0 100px;
+    margin-bottom: 50px;
     scroll-margin-top: 84px;
 }
 
@@ -298,6 +300,10 @@ main section.introduction .description {
     font-size: 16px;
     line-height: 24px;
     color: var(--text-color-secondary);
+}
+
+main section.introduction .description p {
+    margin: 0;
 }
 
 /* About Me */
@@ -378,6 +384,10 @@ main section.my-expertise .expertise-grid .expertise-grid-cell .icons img:hover 
 }
 
 /* Projects */
+main section.projects div.load-more-btn-container {
+    padding: 24px 48px;
+    text-align: center;
+}
 main section.projects .projects-grid {
     margin-top: 24px;
     display: grid;
@@ -387,6 +397,7 @@ main section.projects .projects-grid {
 }
 
 main section.projects .projects-grid .project-grid-cell {
+    position: relative;
     border: 1px solid var(--text-color-tertiary);
     border-radius: 12px;
     padding: 0;
@@ -400,15 +411,42 @@ main section.projects .projects-grid .project-grid-cell:hover {
     cursor: pointer;
 }
 
+main section.projects .projects-grid .project-grid-cell div.project-category-tag {
+    color: var(--highlight);
+    background-color: #040d12;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-bottom-left-radius: 12px;
+}
+
 main section.projects .projects-grid .project-grid-cell div.project-image img {
     width: 100%;
     height: 100%;
 }
 
 main section.projects .projects-grid .project-grid-cell div.project-title {
-    border-radius: 10px;
-    padding: 16px;
+    padding: 0 24px;
+    margin: 16px 0;
+    font-weight: 700;
 }
+
+main section.projects .projects-grid .project-grid-cell div.project-description {
+    color: var(--text-color-secondary);
+    font-size: 14px;
+    padding: 0 24px 24px 24px;
+}
+
+/* main section.projects .projects-grid .project-grid-cell div.project-label {
+    color: var(--highlight);
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 16px;
+    margin-bottom: 16px;
+} */
 
 /* Contact Me */
 main section.contact-me .contact-hero {
@@ -439,7 +477,7 @@ main section.contact-me .contact-form div.form-control input {
     border-radius: 24px;
     outline: none;
     border: 2px solid var(--text-color-secondary);
-    font-family: "Lexend", sans-serif;
+    font-family: "Urbanist", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -452,7 +490,7 @@ main section.contact-me .contact-form div.form-control input::placeholder {
 footer {
     padding: 24px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #000;
     font-size: 14px;
@@ -480,7 +518,9 @@ footer div p {
 
     /* Section */
     main section {
-        padding: 16px 36px;
+        padding: 0 36px;
+        margin-bottom: 36px;
+        scroll-margin-top: 128px;
     }
 
     /* Hero */
@@ -532,6 +572,11 @@ footer div p {
         height: 40px;
     }
 
+    /* Projects */
+    main section.projects .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
     /* Contact Me */
     main section.contact-me .contact-hero {
         font-size: 32px;
@@ -545,7 +590,7 @@ footer div p {
     }
 
     /* Footer */
-    footer div p {
+    footer {
         display: block;
         text-align: center;
     }
