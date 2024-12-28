@@ -263,6 +263,7 @@ main section.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 main section.hero div p.hero-heading {
@@ -527,6 +528,7 @@ footer div p {
     main section.hero {
         flex-direction: column;
         gap: 40px;
+        margin-top: 36px;
     }
 
     main section.hero div p.hero-heading {
