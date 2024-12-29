@@ -420,6 +420,8 @@ main section.projects .projects-grid .project-grid-cell {
     padding: 0;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 main section.projects .projects-grid .project-grid-cell:hover {
@@ -455,6 +457,46 @@ main section.projects .projects-grid .project-grid-cell div.project-description 
     color: var(--text-color-secondary);
     font-size: 14px;
     padding: 0 24px 24px 24px;
+    flex: 1;
+}
+
+main section.projects .projects-grid .project-grid-cell div.project-read-more {
+    color: var(--text-color-secondary);
+    font-size: 14px;
+    padding: 0 24px 24px 24px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-weight: 700;
+    transition: gap 0.5s linear;
+}
+
+main
+    section.projects
+    .projects-grid
+    .project-grid-cell
+    div.project-read-more
+    .read-more-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: var(--text-color); /* defines the background color of the image */
+    mask: url(../img/more.svg) no-repeat center / contain;
+    -webkit-mask: url(../img/more.svg) no-repeat center / contain;
+}
+
+main section.projects .projects-grid .project-grid-cell:hover div.project-read-more {
+    gap: 6px;
+    color: var(--highlight);
+}
+
+main
+    section.projects
+    .projects-grid
+    .project-grid-cell:hover
+    div.project-read-more
+    .read-more-icon {
+    background-color: var(--highlight); /* defines the background color of the image */
 }
 
 /* Contact Me */
