@@ -174,10 +174,11 @@ header {
     justify-content: space-between;
     padding: 20px 210px;
 
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
+    width: 100%;
     background-color: #040d12b0;
     backdrop-filter: saturate(100%) blur(8px);
 }
@@ -185,6 +186,21 @@ header {
 header .name {
     font-family: "Cookie", sans-serif;
     font-size: 32px;
+}
+
+header .header-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .mobile-nav-icon {
+    display: none;
+}
+
+header .mobile-nav-container {
+    display: none;
 }
 
 header nav ul {
@@ -263,7 +279,7 @@ main section.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 120px;
 }
 
 main section.hero div p.hero-heading {
@@ -441,14 +457,6 @@ main section.projects .projects-grid .project-grid-cell div.project-description 
     padding: 0 24px 24px 24px;
 }
 
-/* main section.projects .projects-grid .project-grid-cell div.project-label {
-    color: var(--highlight);
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 0 16px;
-    margin-bottom: 16px;
-} */
-
 /* Contact Me */
 main section.contact-me .contact-hero {
     margin: 0;
@@ -506,29 +514,78 @@ footer div p {
 @media only screen and (max-width: 768px) {
     /* Header */
     header {
-        padding: 20px 50px;
+        padding: 16px 20px;
         flex-direction: column;
+    }
+
+    header .header-bar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
+    }
+
+    header .header-bar nav {
+        display: none;
+    }
+
+    header .header-bar {
+        display: flex;
+    }
+
+    header .mobile-nav-container {
+        width: 100%;
+        padding: 20px 0 0 0;
+        overflow: hidden;
+    }
+
+    header .mobile-nav-container.open {
+        display: block;
+    }
+
+    header .mobile-nav-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    header .mobile-nav-icon img {
+        width: 32px;
+        height: 32px;
     }
 
     header nav ul {
-        align-items: center;
+        flex-direction: column;
+        align-items: start;
         justify-content: center;
+    }
+
+    header nav ul li {
+        padding: 10px 0;
+    }
+
+    header nav ul li::after {
+        content: unset;
+        margin: unset;
+        color: unset;
+    }
+
+    header nav ul li:last-child::after {
+        content: "";
+        display: none;
     }
 
     /* Section */
     main section {
         padding: 0 36px;
         margin-bottom: 36px;
-        scroll-margin-top: 128px;
+        scroll-margin-top: 100px;
     }
 
     /* Hero */
     main section.hero {
         flex-direction: column;
         gap: 40px;
-        margin-top: 36px;
+        margin-top: 100px;
     }
 
     main section.hero div p.hero-heading {
