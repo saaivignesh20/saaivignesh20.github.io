@@ -449,12 +449,19 @@ main section.projects div.load-more-btn-container {
     padding: 24px 48px;
     text-align: center;
 }
+
 main section.projects .projects-grid {
     margin-top: 24px;
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
+}
+
+main section.projects .projects-grid a,
+main section.projects .projects-grid a:visited {
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 main section.projects .projects-grid .project-grid-cell {
