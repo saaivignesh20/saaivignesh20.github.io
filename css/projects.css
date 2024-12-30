@@ -7,7 +7,6 @@ main section.content {
 main section.content .nav-part {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 main section.content .nav-part .back-nav-button {
@@ -58,6 +57,7 @@ main section.content .project-category-tag {
     color: var(--highlight);
     background-color: #4dd0e122;
     border-radius: 100px;
+    margin-bottom: 20px;
 }
 
 main section.content .content-part .spacer {
@@ -72,7 +72,8 @@ main section.content .content-part {
 main section.content .project-title {
     font-size: 36px;
     font-weight: 300;
-    margin: 20px 0;
+    margin: 10px 0;
+    margin-top: 0;
 }
 
 main section.content .project-image {
@@ -99,6 +100,7 @@ main section.content .project-description {
     color: var(--text-color-secondary);
     font-weight: 400;
     line-height: 1.5;
+    margin: 30px 0;
 }
 
 main section.content .project-meta {
@@ -115,6 +117,12 @@ main section.content .project-meta > div {
 main section.content .project-meta h4 {
     margin: 0;
     margin-bottom: 10px;
+}
+
+main section.content .project-meta .client-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 main section.content .project-meta .icons {
