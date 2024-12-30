@@ -11,278 +11,126 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="../css/main.css" />
+        <link rel="stylesheet" href="../css/projects.css" />
     </head>
 
     <body>
         <div class="custom-cursor circle-out"></div>
         <div class="custom-cursor circle-in"></div>
+        <div class="back-to-top-container">
+            <div class="back-to-top-btn"></div>
+        </div>
+
         <header>
-            <div class="name">Saai Vignesh P</div>
-            <nav>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#expertise">Expertise</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#contact">Resume</a></li>
-                </ul>
-            </nav>
+            <div class="header-bar">
+                <div class="name">Saai Vignesh P</div>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="/#about-me">About Me</a></li>
+                        <li><a href="/#expertise">Expertise</a></li>
+                        <li><a href="/#projects">Projects</a></li>
+                        <li><a href="/#contact">Contact</a></li>
+                        <li><a href="/#contact">Resume</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-nav-icon">
+                    <img src="/img/mobile-nav-icon.svg" id="mobile-nav-icon" />
+                </div>
+            </div>
+            <div class="mobile-nav-container">
+                <nav class="mobile-nav">
+                    <ul>
+                        <li><a href="/#about-me">About Me</a></li>
+                        <li><a href="/#expertise">Expertise</a></li>
+                        <li><a href="/#projects">Projects</a></li>
+                        <li><a href="/#contact">Contact</a></li>
+                        <li><a href="/#contact">Resume</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <div class="container">
             <main>
-                <section class="hero">
-                    <div>
-                        <p class="hero-heading font-medium">
-                            Transforming
-                            <span class="highlight">Visions</span> into <br />
-                            Intuitive
-                            <span class="highlight">Digital Realities</span>
-                        </p>
-                        <p class="font-light">One line of code at a time 👨‍💻</p>
-                        <div class="hero-actions">
-                            <button class="primary transition-button">Hire Me</button>
-                            <button class="secondary transition-button">
-                                Download Resume
-                            </button>
-                        </div>
+                <section class="content">
+                    <div class="nav-part">
+                        <a href="/" class="back-nav-button">
+                            <div class="back-icon"></div>
+                            <span>Back to Main</span>
+                        </a>
                     </div>
-                    <div>
-                        <img src="img/hero-img.png" alt="Hero Image" />
-                    </div>
-                </section>
-                <section class="introduction" id="about-me">
-                    <div class="greeting">Hello I'm</div>
-                    <div class="name">Saai Vignesh Premanand</div>
-                    <div class="title">Full Stack Web Developer</div>
-                    <div class="description">
-                        <p>
-                            A creative and experienced web application developer with a
-                            passion for crafting advanced, rich and user-centric digital
-                            experiences.
-                        </p>
-                        <p>Currently working as a freelance software developer.</p>
-                    </div>
-                </section>
-                <section class="about-me">
-                    <h1 class="heading"><span> About Me </span></h1>
-                    <div class="content">
-                        <div class="sub-content">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Morbi vitae finibus quam, at pretium lectus. Quisque
-                                pretium pellentesque nunc, eget consectetur ligula
-                                ultricies vel. Nunc vel posuere nunc. Phasellus a aliquam
-                                tellus, at vehicula massa. Vivamus feugiat arcu ex.
-                                Maecenas eget finibus dui.
-                            </p>
-
-                            <p>
-                                Duis pellentesque arcu eget tristique consectetur. Vivamus
-                                cursus laoreet metus quis aliquam. Morbi enim diam,
-                                commodo et augue in, condimentum dignissim massa. Fusce
-                                orci ante, cursus ut tempor sed, ornare eu diam. Sed non
-                                libero purus. Maecenas et vestibulum arcu.
-                            </p>
-
-                            <p>
-                                Etiam dignissim mi id felis rhoncus, quis porttitor urna
-                                vehicula. Etiam consectetur sodales faucibus. Nam placerat
-                                eu eros a facilisis. Cras nulla magna, accumsan sed
-                                maximus in, ornare auctor tortor. Fusce feugiat tellus at
-                                arcu blandit, ullamcorper vulputate dui lacinia.
-                            </p>
-                        </div>
-                        <div class="image">
-                            <img class="foreground" src="img/profile.jpg" />
-                            <img class="background" src="img/profile_back.svg" />
-                        </div>
-                    </div>
-                </section>
-                <section class="my-expertise" id="expertise">
-                    <h1 class="heading"><span> My Expertise </span></h1>
-                    <div class="expertise-grid">
-                        <div class="expertise-grid-cell">
-                            <h3>Web Frontend</h3>
-                            <div class="icons">
-                                <img src="img/html.png" alt="HTML5" title="HTML5" />
-                                <img src="img/css.png" alt="CSS3" title="CSS3" />
-                                <img
-                                    src="img/javascript.png"
-                                    alt="JavaScript"
-                                    title="JavaScript"
-                                />
-                                <img
-                                    src="img/angular.png"
-                                    alt="Angular"
-                                    title="Angular"
-                                />
-                                <img src="img/react.png" alt="React" title="React" />
+                    <div class="content-part">
+                        <div>
+                            <div class="project-category-tag">PROJECT_CATEGORY_TAG</div>
+                            <h1 class="project-title">Project Title</h1>
+                            <div class="project-image">
+                                <img src="../img/placeholder.jpg" alt="Project Image" />
                             </div>
-                        </div>
-                        <div class="expertise-grid-cell">
-                            <h3>Web Backend</h3>
-                            <div class="icons">
-                                <img src="img/nodejs.png" alt="Node.js" title="Node.js" />
-                                <img
-                                    src="img/express.png"
-                                    alt="ExpressJS"
-                                    title="ExpressJS"
-                                />
-                                <img src="img/nestjs.png" alt="NestJS" title="NestJS" />
-                                <img
-                                    src="img/mongodb.png"
-                                    alt="MongoDB"
-                                    title="MongoDB"
-                                />
-                                <img
-                                    src="img/postgresql.png"
-                                    alt="PostgreSQL"
-                                    title="PostgreSQL"
-                                />
+                            <div class="project-meta">
+                                <div>
+                                    <div>
+                                        <h4>Client</h4>
+                                        <div>Client Company Image Here</div>
+                                    </div>
+                                    <div>
+                                        <h4>Technologies</h4>
+                                        <div class="icons">
+                                            <img
+                                                src="../img/nodejs.png"
+                                                alt="Node.js"
+                                                title="Node.js"
+                                            />
+                                            <img
+                                                src="../img/express.png"
+                                                alt="ExpressJS"
+                                                title="ExpressJS"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button
+                                        class="view-project secondary transition-button compact"
+                                    >
+                                        <span class="open-icon"></span>
+                                        View Project
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="expertise-grid-cell">
-                            <h3>Cloud & Tools</h3>
-                            <div class="icons">
-                                <img src="img/aws.png" alt="AWS" title="AWS" />
-                                <img
-                                    src="img/firebase.png"
-                                    alt="Firebase"
-                                    title="Firebase"
-                                />
-                                <img src="img/auth0.png" alt="Auth0" title="Auth0" />
+                            <div class="project-description">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Integer consectetur nulla sapien, pellentesque
+                                    convallis enim cursus imperdiet. Maecenas posuere
+                                    tellus leo, a placerat leo ultrices vel. Sed
+                                    sollicitudin pellentesque lobortis. Sed nec nibh
+                                    tincidunt neque laoreet rhoncus. Duis vel varius leo.
+                                    Nullam feugiat iaculis risus pharetra sollicitudin.
+                                    Vivamus id nunc pharetra, porttitor lectus dictum,
+                                    molestie orci. In luctus consequat lacus vitae
+                                    pellentesque. Etiam vestibulum turpis vel molestie
+                                    ultrices. Nunc eleifend id ante elementum scelerisque.
+                                    Mauris fermentum euismod nulla eget maximus. Maecenas
+                                    non porta tortor. Curabitur malesuada consequat eros,
+                                    et auctor quam eleifend in. Vestibulum congue nisi ut
+                                    mi congue, ut commodo tortor suscipit.
+                                </p>
+                                <p>
+                                    Mauris ultricies ex id metus pretium efficitur. Morbi
+                                    ut ligula eget mi consequat imperdiet. Suspendisse
+                                    faucibus congue nulla a pharetra. Aliquam tellus
+                                    velit, iaculis eu metus a, interdum laoreet elit.
+                                    Aenean scelerisque est at malesuada egestas. Donec
+                                    venenatis bibendum tortor id malesuada. Suspendisse
+                                    potenti. Donec accumsan tellus vitae sodales sagittis.
+                                </p>
                             </div>
                         </div>
                     </div>
-                </section>
-                <!-- <section class="experience"></section> -->
-                <section class="projects" id="projects">
-                    <h1 class="heading"><span> Projects </span></h1>
-                    <div class="projects-grid">
-                        <div class="project-grid-cell">
-                            <div class="project-category-tag">Architecture</div>
-                            <div class="project-image">
-                                <img src="img/thumb-rsquare.jpg" />
-                            </div>
-                            <div class="project-title">
-                                RSquare: Scalable IoT Tracker Platform
-                            </div>
-                            <div class="project-description">
-                                RSquare is a versatile cloud-based IoT solution tailored
-                                to meet the demands of modern device connectivity and
-                                alerts management.
-                            </div>
-                        </div>
-                        <div class="project-grid-cell">
-                            <div class="project-category-tag">Full-Stack Development</div>
-                            <div class="project-image">
-                                <img src="img/thumb-ramix.jpg" />
-                            </div>
-                            <div class="project-title">
-                                Ramix: Cloud ESL Tags Platform
-                            </div>
-                            <div class="project-description">
-                                ProESL is an advanced solution for managing Electronic
-                                Shelf Tags (ESL), offering a seamless and intuitive
-                                interface for efficient retail operations.
-                            </div>
-                        </div>
-                        <div class="project-grid-cell">
-                            <div class="project-category-tag">Full-Stack Development</div>
-                            <div class="project-image">
-                                <img src="img/thumb-consource.jpg" />
-                            </div>
-                            <div class="project-title">
-                                ProSourcing: Procurement Sourcing Suite
-                            </div>
-                            <div class="project-description">
-                                The end-to-end digital procurement and sourcing software
-                                which serves as the apex to manage demands, project flows,
-                                RFPs, contracts and derive insights on performance.
-                            </div>
-                        </div>
-                        <div class="project-grid-cell">
-                            <div class="project-category-tag">Full-Stack Development</div>
-                            <div class="project-image">
-                                <img src="img/thumb-improveo.jpg" />
-                            </div>
-                            <div class="project-title">
-                                GoConsulting: Consulting Social Network
-                            </div>
-                            <div class="project-description">
-                                Discover the new way to find consulting firms with the
-                                new-age professional network, blending digital and human
-                                interactions. Learn from the best practitioners in the
-                                industry.
-                            </div>
-                        </div>
-                        <div class="project-grid-cell">
-                            <div class="project-category-tag">
-                                Website Design & Hosting
-                            </div>
-                            <div class="project-image">
-                                <img src="img/thumb-landingpage.jpg" />
-                            </div>
-                            <div class="project-title">
-                                SV Microwave Oven Care: Business Site
-                            </div>
-                            <div class="project-description">
-                                Developed a responsive single page website with boosted
-                                accessibility and minimalistic business-oriented design
-                                for a microwave oven repair services vendor.
-                            </div>
-                        </div>
-                        <div class="project-grid-cell">
-                            <div class="project-category-tag">Full-Stack Development</div>
-                            <div class="project-image">
-                                <img src="img/thumb-cuspro.jpg" />
-                            </div>
-                            <div class="project-title">
-                                SVMC CusPro: Custom CRM Software
-                            </div>
-                            <div class="project-description">
-                                Developed a custom CRM software with responsive and PWA
-                                capabilities tailored to the digital needs of the
-                                microwave oven repair services client.
-                            </div>
-                        </div>
-                    </div>
-                    <!-- TODO: Later -->
-                    <!-- <div class="load-more-btn-container">
-                        <button class="secondary transition-button">
-                            View All Projects
-                        </button>
-                    </div> -->
-                </section>
-                <section class="contact-me" id="contact">
-                    <h1 class="heading"><span> Contact Me </span></h1>
-                    <p class="contact-hero font-medium">
-                        Let's
-                        <span class="highlight">build</span> the next <br />
-                        <span class="highlight">big thing</span> together!
-                    </p>
-                    <form class="contact-form" action="">
-                        <div class="form-control">
-                            <input
-                                type="text"
-                                placeholder="Enter your name"
-                                minlength="1"
-                            />
-                        </div>
-                        <div class="form-control">
-                            <input
-                                type="email"
-                                placeholder="Enter your e-mail address"
-                                minlength="5"
-                            />
-                        </div>
-                        <button class="primary transition-button">Submit</button>
-                    </form>
                 </section>
             </main>
         </div>
         <footer>
-            <div>Copyright © 2023 Saai Vignesh Premanand.</div>
+            <div>© 2025 Saai Vignesh Premanand.</div>
             <div>All rights reserved.</div>
         </footer>
         <script src="../js/main.js"></script>

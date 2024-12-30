@@ -22,10 +22,10 @@ window.onload = () => {
             mobileNavigationOpen = !mobileNavigationOpen;
 
             if (mobileNavigationOpen) {
-                mobileNavIcon.src = "img/mobile-nav-icon-close.svg";
+                mobileNavIcon.src = "/img/mobile-nav-icon-close.svg";
                 mobileNavContainer.classList.add("open");
             } else {
-                mobileNavIcon.src = "img/mobile-nav-icon.svg";
+                mobileNavIcon.src = "/img/mobile-nav-icon.svg";
                 mobileNavContainer.classList.remove("open");
             }
         };
@@ -37,5 +37,25 @@ window.onload = () => {
                 mobileNavIcon.click();
             };
         }
+    })();
+
+    (() => {
+        // Assign window scroll event for scroll to top button:
+        const backToTopButtonContainer = document.querySelector(".back-to-top-container");
+        if (!backToTopButtonContainer) return;
+
+        window.onscroll = function (event) {
+            if (window.scrollY == 0) {
+                backToTopButtonContainer.style.visibility = "hidden";
+                backToTopButtonContainer.style.opacity = "0.0";
+            } else {
+                backToTopButtonContainer.style.visibility = "unset";
+                backToTopButtonContainer.style.opacity = "1.0";
+            }
+        };
+
+        backToTopButtonContainer.onclick = function () {
+            window.scrollTo(0, 0);
+        };
     })();
 };

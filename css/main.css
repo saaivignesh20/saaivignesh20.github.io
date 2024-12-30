@@ -65,7 +65,6 @@ body {
 }
 
 /* ====== Moving Custom Cursor ====== */
-
 .custom-cursor {
     position: fixed;
     top: 0;
@@ -95,6 +94,43 @@ body {
     z-index: 100001;
 }
 
+/* ====== Back To Top ====== */
+.back-to-top-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    border: 1px solid var(--text-color-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.25s linear;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.back-to-top-container:hover {
+    background-color: var(--bg-color);
+    border: 1px solid var(--highlight);
+}
+
+.back-to-top-container:hover .back-to-top-btn {
+    background-color: var(--highlight);
+}
+
+.back-to-top-container .back-to-top-btn {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-color: var(--text-color);
+    mask: url(../img/arrow-up.svg) no-repeat center / contain;
+    -webkit-mask: url(../img/arrow-up.svg) no-repeat center / contain;
+    transition: all 0.25s linear;
+}
+
 /* ====== Custom Buttons ====== */
 .transition-button {
     z-index: 0;
@@ -110,6 +146,14 @@ body {
     outline: none;
     border: 2px solid var(--highlight);
     transition: color 0.3s ease, background 0s ease;
+}
+
+.transition-button.compact {
+    padding: 0 16px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 .transition-button.primary {
@@ -330,7 +374,7 @@ main section.about-me .content {
 }
 
 main section.about-me .content .sub-content {
-    line-height: 24px;
+    line-height: 1.5;
     font-size: 16px;
     color: var(--text-color-secondary);
 }
@@ -480,7 +524,7 @@ main
     width: 20px;
     height: 20px;
     display: inline-block;
-    background-color: var(--text-color); /* defines the background color of the image */
+    background-color: var(--text-color);
     mask: url(../img/more.svg) no-repeat center / contain;
     -webkit-mask: url(../img/more.svg) no-repeat center / contain;
 }
@@ -498,7 +542,7 @@ main
     .project-grid-cell:hover
     div.project-read-more
     .read-more-icon {
-    background-color: var(--highlight); /* defines the background color of the image */
+    background-color: var(--highlight);
 }
 
 /* Contact Me */
@@ -543,10 +587,11 @@ main section.contact-me .contact-form div.form-control input::placeholder {
 footer {
     padding: 24px;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     background-color: #000;
     font-size: 14px;
+    gap: 5px;
 }
 
 footer div p {
@@ -556,6 +601,12 @@ footer div p {
 
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
+    /* Cursor */
+
+    .custom-cursor {
+        display: none;
+    }
+
     /* Header */
     header {
         padding: 16px 20px;
@@ -694,7 +745,8 @@ footer div p {
 
     /* Footer */
     footer {
+        padding: 16px 36px;
         display: block;
-        text-align: center;
+        text-align: left;
     }
 }

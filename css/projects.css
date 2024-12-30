@@ -1,0 +1,186 @@
+main section.content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+main section.content .nav-part {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+main section.content .nav-part .back-nav-button {
+    display: flex;
+    padding: 10px;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    cursor: pointer;
+    transition: all 0.25s linear;
+    text-transform: uppercase;
+    gap: 0;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+main section.content .nav-part .back-nav-button:visited {
+    color: var(--text-color);
+}
+
+main section.content .nav-part .back-nav-button:hover {
+    gap: 6px;
+    color: var(--highlight);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+main section.content .nav-part .back-nav-button:hover .back-icon {
+    background-color: var(--highlight);
+}
+
+main section.content .nav-part .back-nav-button .back-icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-color: var(--text-color);
+    mask: url(../img/left.svg) no-repeat center / contain;
+    -webkit-mask: url(../img/left.svg) no-repeat center / contain;
+}
+
+main section.content .project-category-tag {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 16px;
+    color: var(--highlight);
+    background-color: #4dd0e122;
+    border-radius: 100px;
+}
+
+main section.content .content-part .spacer {
+    min-width: 64px;
+}
+
+main section.content .content-part {
+    display: flex;
+    flex: 1;
+}
+
+main section.content .project-title {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+main section.content .project-image {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+main section.content .project-image img {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 12px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+main section.content .project-image.full-height img {
+    max-height: unset;
+    object-fit: unset;
+}
+
+main section.content .project-description {
+    color: var(--text-color-secondary);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+main section.content .project-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section.content .project-meta > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+main section.content .project-meta h4 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+main section.content .project-meta .icons {
+    display: flex;
+    gap: 10px;
+}
+
+main section.content .project-meta .icons img {
+    filter: none;
+    height: 32px;
+    width: auto;
+    transition: filter 0.5s;
+}
+
+main section.content .project-meta .icons img:hover {
+    filter: grayscale();
+}
+
+button.view-project .open-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-color: var(--highlight);
+    mask: url(../img/open.svg) no-repeat center / contain;
+    -webkit-mask: url(../img/open.svg) no-repeat center / contain;
+}
+
+button.view-project:hover .open-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-color: var(--bg-color);
+    mask: url(../img/open.svg) no-repeat center / contain;
+    -webkit-mask: url(../img/open.svg) no-repeat center / contain;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    main section.content {
+        margin-top: 80px;
+    }
+
+    main section.content .nav-part {
+        margin-bottom: 10px;
+    }
+
+    main section.content .project-title {
+        font-size: 24px;
+    }
+
+    main section.content .project-meta {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 20px;
+    }
+
+    main section.content .project-meta > div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    button.view-project {
+        justify-content: center;
+    }
+}
