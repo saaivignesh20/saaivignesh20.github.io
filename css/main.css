@@ -492,6 +492,7 @@ main section.projects .projects-grid .project-grid-cell {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 main section.projects .projects-grid .project-grid-cell:hover {
