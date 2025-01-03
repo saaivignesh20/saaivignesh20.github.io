@@ -733,9 +733,9 @@ footer div p {
         font-size: 36px;
     }
 
-    main section.hero div.hero-actions {
+    /* main section.hero div.hero-actions {
         flex-direction: column;
-    }
+    } */
 
     /* Container */
     div.container {
