@@ -83,6 +83,11 @@ body {
     flex: 1;
 }
 
+/* ====== Text Alignment ====== */
+.text-center {
+    text-align: center;
+}
+
 /* ====== Moving Custom Cursor ====== */
 .custom-cursor {
     position: fixed;
@@ -590,6 +595,11 @@ main section.contact-me .contact-form {
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+main section.contact-me .contact-me-content {
+    text-align: center;
+    line-height: 1.5;
 }
 
 main section.contact-me .contact-form div.form-control {
