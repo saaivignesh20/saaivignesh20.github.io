@@ -1,934 +1,401 @@
-<svg width="194" height="191" viewBox="0 0 194 191" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.50751 19.5714C1.50751 9.61876 9.70788 1.5238 19.8568 1.5238H174.651C184.8 1.5238 193 9.61875 193 19.5714V171.952C193 181.905 184.8 190 174.651 190H19.8568C9.70788 190 1.50751 181.905 1.50751 171.952V19.5714Z" stroke="white" stroke-width="2"/>
+<svg width="171" height="223" viewBox="0 0 171 223" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_6_1820)">
-<g clip-path="url(#clip1_6_1820)">
-<circle cx="2.00751" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="2.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="2.0238" r="1.5" fill="white"/>
+<circle cx="14.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="12.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="21.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="30.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="39.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="48.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="57.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="66.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="75.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="84.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="93.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="102.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="111.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="120.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="129.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="138.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="147.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="156.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="165.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="174.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="183.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="192.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="201.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="14.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="23.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="32.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="41.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="50.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="59.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="68.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="77.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="86.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="95.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="104.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="113.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="122.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="131.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="140.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="149.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
+<circle cx="158.5" cy="210.5" r="1.5" fill="#D2D6DB"/>
 </g>
-<g clip-path="url(#clip2_6_1820)">
-<circle cx="2.00751" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="9.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="9.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip3_6_1820)">
-<circle cx="2.00751" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="16.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="16.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip4_6_1820)">
-<circle cx="2.00751" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="23.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="23.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip5_6_1820)">
-<circle cx="2.00751" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="30.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="30.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip6_6_1820)">
-<circle cx="2.00751" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="37.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="37.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip7_6_1820)">
-<circle cx="2.00751" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="44.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="44.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip8_6_1820)">
-<circle cx="2.00751" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="51.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="51.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip9_6_1820)">
-<circle cx="2.00751" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="58.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="58.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip10_6_1820)">
-<circle cx="2.00751" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="65.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="65.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip11_6_1820)">
-<circle cx="2.00751" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="72.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="72.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip12_6_1820)">
-<circle cx="2.00751" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="79.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="79.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip13_6_1820)">
-<circle cx="2.00751" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="86.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="86.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip14_6_1820)">
-<circle cx="2.00751" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="100.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="107.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="114.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="121.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="128.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="135.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="142.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="149.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="156.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="163.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="170.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="177.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="184.008" cy="93.0238" r="1.5" fill="white"/>
-<circle cx="191.008" cy="93.0238" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip15_6_1820)">
-<circle cx="2.00751" cy="100.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="100.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="100.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="100.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="100.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="100.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="100.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="100.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="100.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="100.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="100.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="100.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="100.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="100.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="100.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="100.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip16_6_1820)">
-<circle cx="2.00751" cy="107.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="107.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="107.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="107.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="107.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="107.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="107.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="107.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="107.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="107.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="107.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="107.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="107.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="107.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="107.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="107.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip17_6_1820)">
-<circle cx="2.00751" cy="114.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="114.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="114.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="114.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="114.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="114.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="114.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="114.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="114.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="114.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="114.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="114.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="114.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="114.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="114.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="114.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip18_6_1820)">
-<circle cx="2.00751" cy="121.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="121.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="121.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="121.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="121.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="121.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="121.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="121.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="121.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="121.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="121.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="121.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="121.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="121.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="121.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="121.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip19_6_1820)">
-<circle cx="2.00751" cy="128.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="128.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="128.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="128.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="128.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="128.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="128.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="128.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="128.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="128.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="128.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="128.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="128.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="128.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="128.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="128.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip20_6_1820)">
-<circle cx="2.00751" cy="135.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="135.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="135.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="135.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="135.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="135.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="135.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="135.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="135.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="135.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="135.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="135.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="135.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="135.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="135.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="135.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip21_6_1820)">
-<circle cx="2.00751" cy="142.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="142.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="142.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="142.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="142.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="142.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="142.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="142.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="142.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="142.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="142.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="142.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="142.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="142.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="142.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="142.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip22_6_1820)">
-<circle cx="2.00751" cy="149.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="149.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="149.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="149.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="149.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="149.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="149.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="149.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="149.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="149.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="149.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="149.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="149.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="149.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="149.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="149.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip23_6_1820)">
-<circle cx="2.00751" cy="156.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="156.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="156.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="156.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="156.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="156.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="156.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="156.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="156.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="156.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="156.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="156.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="156.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="156.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="156.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="156.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip24_6_1820)">
-<circle cx="2.00751" cy="163.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="163.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="163.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="163.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="163.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="163.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="163.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="163.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="163.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="163.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="163.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="163.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="163.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="163.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="163.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="163.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip25_6_1820)">
-<circle cx="2.00751" cy="170.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="170.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="170.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="170.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="170.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="170.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="170.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="170.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="170.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="170.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="170.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="170.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="170.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="170.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="170.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="170.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip26_6_1820)">
-<circle cx="2.00751" cy="177.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="177.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="177.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="177.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="177.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="177.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="177.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="177.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="177.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="177.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="177.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="177.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="177.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="177.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="177.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="177.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip27_6_1820)">
-<circle cx="2.00751" cy="184.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="184.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="184.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="184.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="184.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="184.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="184.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="184.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="184.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="184.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="184.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="184.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="184.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="184.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="184.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="184.024" r="1.5" fill="white"/>
-</g>
-<g clip-path="url(#clip28_6_1820)">
-<circle cx="2.00751" cy="191.024" r="1.5" fill="white"/>
-<circle cx="9.00751" cy="191.024" r="1.5" fill="white"/>
-<circle cx="16.0075" cy="191.024" r="1.5" fill="white"/>
-<circle cx="23.0075" cy="191.024" r="1.5" fill="white"/>
-<circle cx="30.0075" cy="191.024" r="1.5" fill="white"/>
-<circle cx="37.0075" cy="191.024" r="1.5" fill="white"/>
-<circle cx="44.0075" cy="191.024" r="1.5" fill="white"/>
-<circle cx="51.0075" cy="191.024" r="1.5" fill="white"/>
-<circle cx="58.0075" cy="191.024" r="1.5" fill="white"/>
-<circle cx="65.0075" cy="191.024" r="1.5" fill="white"/>
-<circle cx="72.0075" cy="191.024" r="1.5" fill="white"/>
-<circle cx="79.0075" cy="191.024" r="1.5" fill="white"/>
-<circle cx="86.0075" cy="191.024" r="1.5" fill="white"/>
-<circle cx="93.0075" cy="191.024" r="1.5" fill="white"/>
-<circle cx="100.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="107.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="114.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="121.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="128.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="135.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="142.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="149.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="156.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="163.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="170.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="177.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="184.008" cy="191.024" r="1.5" fill="white"/>
-<circle cx="191.008" cy="191.024" r="1.5" fill="white"/>
-</g>
-</g>
+<rect x="1.65125" y="1" width="168.349" height="221" rx="19" stroke="#EFEFEF" stroke-width="2"/>
 <defs>
 <clipPath id="clip0_6_1820">
-<rect x="0.507507" y="0.523804" width="193.493" height="190.476" rx="25" fill="white"/>
-</clipPath>
-<clipPath id="clip1_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 0.523804)"/>
-</clipPath>
-<clipPath id="clip2_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 7.5238)"/>
-</clipPath>
-<clipPath id="clip3_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 14.5238)"/>
-</clipPath>
-<clipPath id="clip4_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 21.5238)"/>
-</clipPath>
-<clipPath id="clip5_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 28.5238)"/>
-</clipPath>
-<clipPath id="clip6_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 35.5238)"/>
-</clipPath>
-<clipPath id="clip7_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 42.5238)"/>
-</clipPath>
-<clipPath id="clip8_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 49.5238)"/>
-</clipPath>
-<clipPath id="clip9_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 56.5238)"/>
-</clipPath>
-<clipPath id="clip10_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 63.5238)"/>
-</clipPath>
-<clipPath id="clip11_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 70.5238)"/>
-</clipPath>
-<clipPath id="clip12_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 77.5238)"/>
-</clipPath>
-<clipPath id="clip13_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 84.5238)"/>
-</clipPath>
-<clipPath id="clip14_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 91.5238)"/>
-</clipPath>
-<clipPath id="clip15_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 98.5238)"/>
-</clipPath>
-<clipPath id="clip16_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 105.524)"/>
-</clipPath>
-<clipPath id="clip17_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 112.524)"/>
-</clipPath>
-<clipPath id="clip18_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 119.524)"/>
-</clipPath>
-<clipPath id="clip19_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 126.524)"/>
-</clipPath>
-<clipPath id="clip20_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 133.524)"/>
-</clipPath>
-<clipPath id="clip21_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 140.524)"/>
-</clipPath>
-<clipPath id="clip22_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 147.524)"/>
-</clipPath>
-<clipPath id="clip23_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 154.524)"/>
-</clipPath>
-<clipPath id="clip24_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 161.524)"/>
-</clipPath>
-<clipPath id="clip25_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 168.524)"/>
-</clipPath>
-<clipPath id="clip26_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 175.524)"/>
-</clipPath>
-<clipPath id="clip27_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 182.524)"/>
-</clipPath>
-<clipPath id="clip28_6_1820">
-<rect width="200" height="7" fill="white" transform="translate(0.507507 189.524)"/>
+<rect width="153" height="205" fill="white" transform="translate(13 11)"/>
 </clipPath>
 </defs>
 </svg>

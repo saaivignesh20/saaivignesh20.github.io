@@ -304,7 +304,7 @@ header nav ul li a:hover {
 main section {
     /* padding: 50px 100px; */
     padding: 0 100px;
-    margin-bottom: 50px;
+    margin-bottom: 36px;
     scroll-margin-top: 84px;
 }
 
@@ -361,32 +361,37 @@ main section.hero div.hero-actions {
 }
 
 /* Introduction */
-main section.introduction {
+/* main section.introduction {
+    text-align: center;
+} */
+
+/* About Me */
+main section.about-me .intro {
+    color: var(--text-color);
+    line-height: initial;
     text-align: center;
 }
 
-main section.introduction .greeting,
-main section.introduction .title {
+main section.about-me .intro .greeting,
+main section.about-me .intro .title {
     font-size: 20px;
 }
 
-main section.introduction .name {
+main section.about-me .intro .name {
     font-family: "Cookie", sans-serif;
     font-size: 48px;
 }
 
-main section.introduction .description {
+main section.about-me .description {
     margin-top: 24px;
     font-size: 16px;
     line-height: 24px;
     color: var(--text-color-secondary);
 }
 
-main section.introduction .description p {
+main section.about-me .description p {
     margin: 0;
 }
-
-/* About Me */
 main section.about-me .content {
     display: flex;
     gap: 80px;
@@ -404,14 +409,14 @@ main section.about-me .content .image {
 
 main section.about-me .content .image img.foreground {
     position: relative;
-    width: 224px;
+    aspect-ratio: 3/ 4;
     height: 224px;
     border-radius: 20px;
     z-index: 1;
 }
 
 main section.about-me .content .image img.background {
-    width: 224px;
+    aspect-ratio: 3 / 4;
     height: 224px;
     position: absolute;
     border-radius: 20px;
@@ -739,13 +744,13 @@ footer div p {
     }
 
     main section.about-me .content .image img.foreground {
-        width: 128px;
-        height: 128px;
+        aspect-ratio: 3 / 4;
+        height: 224px;
     }
 
     main section.about-me .content .image img.background {
-        width: 128px;
-        height: 128px;
+        aspect-ratio: 3 / 4;
+        height: 224px;
     }
 
     /* My Expertise */

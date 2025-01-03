@@ -59,3 +59,35 @@ window.onload = () => {
         };
     })();
 };
+
+/*
+    For Cursor Move Event:
+
+    Do something like this, but this is react, we've to do plain JS:
+
+    const mouseMoveEvent = useCallback(
+        (e: MouseEvent) => {
+        cursorVisible.current = true;
+        toggleCursorVisibility();
+
+        endX.current = e.pageX;
+        endY.current = e.pageY;
+        if (dot?.current) {
+            dot.current.style.top = endY.current + 'px';
+            dot.current.style.left = endX.current + 'px';
+        }
+        },
+        [toggleCursorVisibility]
+    );
+    
+    const animateDotOutline = useCallback(() => {
+        _x.current += (endX.current - _x.current) / delay;
+        _y.current += (endY.current - _y.current) / delay;
+
+        if (dotOutline?.current) {
+        dotOutline.current.style.top = _y.current + 'px';
+        dotOutline.current.style.left = _x.current + 'px';
+        }
+        requestRef.current = requestAnimationFrame(animateDotOutline);
+    }, [endX, endY]);
+*/
