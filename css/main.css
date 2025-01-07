@@ -134,6 +134,7 @@ body {
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
+    z-index: 999;
 }
 
 .back-to-top-container:hover {
