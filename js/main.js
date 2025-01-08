@@ -1,14 +1,48 @@
 window.onload = () => {
+    // (() => {
+    //     // Custom cursor update code:
+    //     const cursorInnerEl = document.querySelector(".circle-in");
+    //     const cursorOuterEl = document.querySelector(".circle-out");
+    //     window.onmousemove = function (event) {
+    //         cursorOuterEl.style.transform =
+    //             "translate(" + event.clientX + "px, " + event.clientY + "px" + ")";
+    //         cursorInnerEl.style.transform =
+    //             "translate(" + event.clientX + "px, " + event.clientY + "px" + ")";
+    //     };
+    // })();
+    // Custom cursor movement with requestAnimationFrame
     (() => {
-        // Custom cursor update code:
         const cursorInnerEl = document.querySelector(".circle-in");
         const cursorOuterEl = document.querySelector(".circle-out");
-        window.onmousemove = function (event) {
-            cursorOuterEl.style.transform =
-                "translate(" + event.clientX + "px, " + event.clientY + "px" + ")";
-            cursorInnerEl.style.transform =
-                "translate(" + event.clientX + "px, " + event.clientY + "px" + ")";
+
+        let mouseX = 0,
+            mouseY = 0; // Current mouse position
+        let cursorX = 0,
+            cursorY = 0; // Cursor position for smooth animation
+        const delay = 1; // Delay factor for smoothness (higher = smoother)
+
+        // Mouse move listener to update the target position
+        window.addEventListener("mousemove", (event) => {
+            mouseX = event.clientX;
+            mouseY = event.clientY;
+        });
+
+        // Animate cursor using requestAnimationFrame
+        const animateCursor = () => {
+            // Smoothly interpolate the cursor position towards the mouse position
+            cursorX += (mouseX - cursorX) / delay;
+            cursorY += (mouseY - cursorY) / delay;
+
+            // Apply the positions to the cursor elements
+            cursorOuterEl.style.transform = `translate(${cursorX}px, ${cursorY}px)`;
+            cursorInnerEl.style.transform = `translate(${mouseX}px, ${mouseY}px)`; // Inner cursor can stay more direct if needed
+
+            // Continue the animation loop
+            requestAnimationFrame(animateCursor);
         };
+
+        // Start the animation
+        animateCursor();
     })();
 
     let mobileNavigationOpen = false;
