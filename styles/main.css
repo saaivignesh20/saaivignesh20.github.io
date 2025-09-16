@@ -1,0 +1,15 @@
+/**
+ * Main CSS Import File
+ * Combines all modular CSS files in the correct order
+ */
+
+/* Import in order of specificity and dependencies */
+@import './variables.css';
+@import './base.css';
+@import './layout.css';
+@import './components.css';
+@import './animations.css';
+@import './utilities.css';
+
+/* Project-specific styles */
+@import './projects.css';
